@@ -1,0 +1,45 @@
+yarn create nuxt-app iadmin
+cd iadmin
+
+
+// run
+yarn dev
+
+// To build & start for production:
+20. 传统部署
+yarn build && yarn start
+21. pm2部署
+它允许您永久保持应用程序活跃，无需停机即可重新加载它们，并不需要传统部署的.nuxt文件夹，该部署方法也跟生产环境一样含热更新
+yarn add pm2 -g
+yarn build
+pm2 start ./node_modules/nuxt/bin/nuxt-start
+    
+
+
+
+https://zh.nuxtjs.org/guide/installation
+
+
+https://www.w3cschool.cn/nuxtjs/nuxtjs-opyl36g3.html
+
+
+
+https://router.vuejs.org/zh/api/#router-link
+
+
+
+axios
+https://www.cnblogs.com/ldlx-mars/p/9959226.html
+
+
+components组件
+https://blog.csdn.net/weixin_43970743/article/details/89517581
+
+
+el-menu
+https://www.cnblogs.com/mica/p/10790976.html
+
+
+vue教程
+https://cn.vuejs.org/v2/guide/list.html
+https://vuex.vuejs.org/zh/guide/modules.html

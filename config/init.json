@@ -1,0 +1,41 @@
+{
+    "left": {
+        "menu_data": [{
+            "path": "/menu/1",
+            "name": "用户管理",
+            "icon": "el-icon-menu",
+            "children": [
+                {
+                    "path": "/welcome/users",
+                    "name": "用户列表查询1",
+                    "icon": ""
+                },
+                {
+                    "path": "/welcome/users2",
+                    "name": "用户列表查询2",
+                    "icon": ""
+                },
+                {
+                    "path": "/welcome/users3",
+                    "name": "用户列表查询3",
+                    "icon": ""
+                }
+            ]
+        },
+        {
+            "path": "/menu/2",
+            "name": "角色管理",
+            "icon": "el-icon-menu"
+        },
+        {
+            "path": "/menu/3",
+            "name": "用户管理",
+            "icon": "el-icon-menu"
+        },
+        {
+            "path": "/menu/4",
+            "name": "角色管理",
+            "icon": "el-icon-menu"
+        }]
+    }
+}
